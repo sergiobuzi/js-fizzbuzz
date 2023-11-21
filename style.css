@@ -12,17 +12,17 @@ h1{
 
 .container{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     text-align: center;
     background-color: rgb(13, 79, 95);
 }
 
 
 .row{
-    width: 80%;
+    max-width: 80%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .square{
@@ -37,14 +37,14 @@ justify-content: center;
 font-size: 30px;
 }
 
-.fizz{
+.green{
     background-color: rgb(121, 216, 161);
 }
 
-.buzz{
+.yellow{
     background-color: rgb(255, 196, 69);
 }
 
-.fizzbuzz{
+.red{
     background-color: rgb(255, 92, 92);
 }
